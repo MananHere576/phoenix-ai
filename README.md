@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/logo.svg" alt="Login Screen" width="600" />
+  <img src="/public/logo.svg" alt="Login Screen" width="600" />
 </p>
 
 # 🚀 Full Stack AI Mock Interview App
@@ -47,6 +47,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
 NEXT_PUBLIC_DRIZZLE_DB_URL=your_postgres_connection_url
 
 NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+```
 ⚠️ Important: Do not share your .env.local publicly or commit it to version control.
 
 ## 🚀 How to Run Locally
@@ -91,10 +92,10 @@ Answers are recorded as speech and converted to text
 Data is saved into PostgreSQL via Drizzle ORM
 
 ## 🖼️ Auth flow Diagram
-![Authflow](/auth_img.png)
+![Authflow](/public/auth_img.png)
 
 ## 🖼️ Work flow Diagram
-![Workflow](/workflow.png)
+![Workflow](/public/workflow.png)
 
 
 ## 🎯 Production Build
