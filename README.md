@@ -47,6 +47,12 @@ NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
 NEXT_PUBLIC_DRIZZLE_DB_URL=your_postgres_connection_url
 
 NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+
+NEXT_PUBLIC_INTERVIEW_QUESTIONS_COUNT=5
+
+NEXT_PUBLIC_INFORMATION="Enable Videos Webcam and Microphone to start your Interview."
+
+NEXT_PUBLIC_QUESTION_NOTE="Click on Record Answer button to record your response and click on Stop Recording when are done with your answer."
 ```
 ⚠️ Important: Do not share your .env.local publicly or commit it to version control.
 
